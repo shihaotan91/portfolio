@@ -1,0 +1,54 @@
+.Projects {
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.projectMain {
+  color: black;
+  font-size: 60px;
+  text-align: center;
+  margin-left: 15px;
+}
+
+.projectTitle {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.projectDesc {
+  font-size: 20px;
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.created {
+  font-size: 16px;
+  color: orange;
+}
+
+.screenshot {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 800px;
+  display: block;
+  margin: 0 auto;
+}
+
+.linkto {
+  padding: 5px;
+  color: black;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.linkto:hover {
+  color: orange
+}
+
+hr {
+  width: 80%;
+}

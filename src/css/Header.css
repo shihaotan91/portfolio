@@ -1,0 +1,51 @@
+.header {
+  background-color: orange;
+  color: white;
+  height: 50px;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.homeLogo {
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 10px;
+}
+
+.home {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.projectsLogo {
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 10px;
+}
+
+.projects {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.resumeLogo {
+  height: 30px;
+  width: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: 10px;
+}
+
+.resume {
+  display: inline-block;
+  margin-right: 40px;
+}
+
+
+
+/*h1 {
+}*/
