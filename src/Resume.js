@@ -7,7 +7,8 @@ class Resume extends Component {
     return (
       <div className="Resume">
         <Header/>
-        <img className="resumeImg" src="http://i.imgur.com/AxZsyVJ.jpg)"/>
+        <a className="download" href="https://www.pdf-archive.com/2016/12/13/shihaoresume/shihaoresume.pdf" download="ShiHaoResume">Download Resume</a>
+        <img className="resumeImg" src="http://i.imgur.com/dXjCmHk.jpg"/>
       </div>
     );
   }

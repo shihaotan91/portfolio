@@ -2,6 +2,25 @@
   display: block;
   margin: 0 auto;
   width: 700px;
-  margin-top: 100px;
   margin-bottom: 100px;
+  border: 1px black solid;
+}
+
+.download {
+  text-align:center;
+  display: block;
+  margin: 0 auto;
+  margin-top: 100px;
+  font-size: 30px;
+  padding-bottom: 20px;
+  color: black;
+}
+
+.download:hover {
+  color: orange;
+}
+
+.Resume {
+  background-color: white;
+  padding-bottom: 5px;
 }
