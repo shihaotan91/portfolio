@@ -151,17 +151,17 @@ class Projects extends Component {
         <p className="projectDesc">A classic 2D shooter game re-created with Pokemon skins. As the player evolves or levels up, so does the difficulty. Player can also pick up potions and powerups along the way. Wanna be the very best? First you’ve to defeat the final boss! <br/><br/><span className="created">Created with Javascript</span></p>
         <img className="screenshot" src="http://i.imgur.com/9i5uBud.png"/>
 
-        <a href="https://shihaotan91.github.io/project1b-test/" target="_blank"  className="linkto">Website</a>
-        <a href="https://github.com/shihaotan91/project1b-test" target="_blank" className="linkto">Source Code</a>
+        <a href="https://shihaotan91.github.io/CharBurnChar/" target="_blank"  className="linkto">Website</a>
+        <a href="https://github.com/shihaotan91/CharBurnChar" target="_blank" className="linkto">Source Code</a>
         <hr/>
 
         <h2
         id="journalTitle"
-        className="projectTitle">Travel Journal</h2>
+        className="projectTitle">Travel Album</h2>
         <p className="projectDesc">A photo sharing web application inspired by Instagram. Users can create account, upload their photos and comment on other users photo. Users can also tag the location of where their photos are taken at. <br/><br/><span className="created">Created with Javascript, Express, Node.js and MongoDB</span></p>
         <img className="screenshot" src="http://i.imgur.com/tekEf99.png"/>
         <a href="https://shihao-project2.herokuapp.com/" className="linkto" target="_blank">Website</a>
-        <a href="https://github.com/shihaotan91/project2" className="linkto" target="_blank">Source Code</a>
+        <a href="https://github.com/shihaotan91/Travel-Album" className="linkto" target="_blank">Source Code</a>
 
         <hr/>
 
@@ -187,7 +187,7 @@ class Projects extends Component {
         can also save their resumes as PDF files.<br/><br/><span className="created">Created with Javascript(ES6), React, Firebase</span></p>
         <img className="screenshot" src="http://i.imgur.com/2em9hDh.png"/>
         <a href="https://resumeexpress.herokuapp.com/" className="linkto" target="_blank">Website</a>
-        <a href="https://github.com/shihaotan91/ResumeExpress_Heroku" className="linkto" target="_blank">Source Code</a>
+        <a href="https://github.com/shihaotan91/ResumeExpress_Production" className="linkto" target="_blank">Source Code</a>
 
         <hr/>
 
