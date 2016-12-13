@@ -21,7 +21,9 @@ class Home extends Component {
         <h3 className="contact">|</h3>
         <h3 className="contact">(+65) 98372672</h3>
         <h3 className="contact">|</h3>
-        <a href="https://github.com/shihaotan91/"><h3 className="contact">https://github.com/shihaotan91/</h3></a>
+        <a href="https://github.com/shihaotan91/" target="_blank"><h3 className="contact">https://github.com/shihaotan91/</h3></a>
+        <br/>
+        <img className="myStack"src="http://i.imgur.com/Z92oJX6.jpg"/>
       </div>
     );
   }

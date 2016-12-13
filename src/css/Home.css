@@ -6,6 +6,13 @@
   color: white;
 }
 
+.myStack {
+  display: block;
+  margin: 0 auto;
+  width: 500px;
+  margin-bottom: 30px;
+}
+
 a {
   color: white;
 }

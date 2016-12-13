@@ -10,6 +10,84 @@
   margin-left: 15px;
 }
 
+.gif {
+  width: 320px;
+  height: 200px;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.gifRow {
+  display: block;
+  margin: 0 auto;
+  width: 1800px;
+}
+
+.backToTop {
+  position: fixed;
+  top: 550px;
+  left: 1150px;
+  background-color: orange;
+  width: 60px;
+  height: 60px;
+  border: 0px;
+  border-radius: 100%;
+  opacity: 0.2
+}
+
+.backToTop:hover {
+  opacity: 1
+}
+
+.arrow {
+  font-size: 20px;
+}
+
+.shy {
+  color: orange;
+  text-align: center;
+}
+
+.wrapper
+{
+    position: relative;
+    text-decoration: none;
+      margin-left: 80px;
+}
+.wrapper img
+{
+    opacity: 1;
+    -webkit-transition: opacity .5s ease;
+}
+.wrapper:hover img{opacity: 0.5;}
+.wrapper .rollover
+{
+    display: block;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: 3px;
+    color: #FFF;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: .9em;
+    background-color: #000;
+    text-shadow: 0px 0px 2px #000;
+    opacity: .7;
+}
+.wrapper .rollover h4
+{
+    font-weight: 600;
+    padding: 0px 5px;
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+.wrapper .rollover p
+{
+    padding: 0px 5px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
 .projectTitle {
   text-align: center;
   margin-top: 100px;
