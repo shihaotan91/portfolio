@@ -94,7 +94,7 @@ class Projects extends Component {
 
         <div className="gifRow">
 
-        <a className="wrapper" onClick={this.scrollToChar}>
+        <a className="wrapper" id="right" onClick={this.scrollToChar}>
         <img id="charGif" className="gif"
         src="http://i.imgur.com/LE9aKb3.gif"/>
         <span className="rollover">
