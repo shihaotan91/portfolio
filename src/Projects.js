@@ -14,7 +14,6 @@ class Projects extends Component {
     this.scrollToJournal = this.scrollToJournal.bind(this)
     this.scrollToMeal = this.scrollToMeal.bind(this)
     this.scrollToRE = this.scrollToRE.bind(this)
-    this.scrollToTTT = this.scrollToTTT.bind(this)
     this.scrollToTop = this.scrollToTop.bind(this)
   }
 
@@ -44,13 +43,6 @@ class Projects extends Component {
     // alert("hello world")
     $('html,body').animate({
         scrollTop: $("#RETitle").offset().top},
-        'slow');
-    }
-
-    scrollToTTT() {
-    // alert("hello world")
-    $('html,body').animate({
-        scrollTop: $("#tttTitle").offset().top},
         'slow');
     }
 
@@ -112,7 +104,9 @@ class Projects extends Component {
         </span>
         </a>
 
-        <a className="wrapper"
+        <br/>
+
+        <a className="wrapper" id="right"
         onClick={this.scrollToMeal}>
         <img id="mealboxGif" className="gif" src="http://i.imgur.com/a5I6wRk.gif"/>
         <span className="rollover">
@@ -121,7 +115,6 @@ class Projects extends Component {
         </span>
         </a>
 
-        <br/>
 
         <a className="wrapper"
         onClick={this.scrollToRE}>
@@ -130,16 +123,6 @@ class Projects extends Component {
         <span className="rollover">
         <h4>ResumeExpress</h4>
         <p>A web application where users can log in with facebook and create resumes just by filling up a form.</p>
-        </span>
-        </a>
-
-        <a className="wrapper"
-        onClick={this.scrollToTTT}>
-        <img id="tttGif" className="gif"
-        src="http://i.imgur.com/g5bsRzs.gif"/>
-        <span className="rollover">
-        <h4>Tic Tac Toe</h4>
-        <p>A simple Tic Tac Toe game created with Javascript.</p>
         </span>
         </a>
 
@@ -190,13 +173,6 @@ class Projects extends Component {
         <a href="https://github.com/shihaotan91/ResumeExpress_Production" className="linkto" target="_blank">Source Code</a>
 
         <hr/>
-
-        <h2
-        id="tttTitle" className="projectTitle">Western TicTacToe</h2>
-        <p className="projectDesc">A simple Tic Tac Toe game made with western skins. Created this during the first week of my WDI course with GA.<br/><br/><span className="created">Created with Javascript</span></p>
-        <img className="screenshot" src="http://i.imgur.com/rd8nNL0.png"/>
-        <a href="https://shihaotan91.github.io/tictactoe/" className="linkto" target="_blank">Website</a>
-        <a href="https://github.com/shihaotan91/tictactoe/" className="linkto" target="_blank">Source Code</a>
 
       </div>
     );
